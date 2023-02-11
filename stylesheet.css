@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: Times New Roman;
+	background-color: #000205;
+	border: solid white 5px;
+	border-radius: 50px;
+	padding: 10px;
+}
+	h1, h2 {
+		height: 10%;
+		width: 100%;
+		text-align: center;
+	}
+		.h1Andh2 {
+			background-color: #f5f9fe;
+			border-radius: 50px 50px 0 0;
+		}
+		h1 {
+		font-size: 48px;
+		}
+	nav {
+		height: 5%;
+		width: 100%;
+		text-align: center;
+		background-color: #e9f3fe;
+		padding: 5px 0 5px 0;
+	}
+		a {
+			text-decoration: none;
+			color: #28486b;
+		}
+	.mainAndAsideContainer {
+		display: flex;
+		flex-direction: row;
+		background-color: #637a93;
+		border-radius: 0 0 50px 50px;
+	}
+	main, aside {
+		padding: 0 25px 0 25px;
+	}
+		main {
+			display: flex;
+			flex-direction: column;
+			height: 80%;
+			width: 70%;
+			background-color: #daebfe;
+			border-radius: 0 0 0 50px;
+		}
+		aside {
+			height: 100%;
+			width: 30%;
+			margin-top: 20px;
+		}
+			.aside {
+				margin-top: 10px;
+			}
+	footer, .footer {
+		height: 5%;
+		width: 100%;
+		text-align: right;
+		color: #e9f3fe;
+		position: relative;
+		right: 10px;
+		background-color: transparent;
+		font-size: 12px;
+		display: inline-block;
+		margin: 5px;
+	}
+	
+img {
+	z-index: 3;
+	position: fixed;
+	height: 92%;
+	width: 55%;
+	left: 20%;
+	top: 5%;
+	right: 20%;
+	bottom: 50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3)
+}
+	.webDevelopmentCert {
+		visibility: hidden;
+	}
+	.sqlCert {
+		visibility: hidden;
+	}
+	.pythonCert {
+		visibility: hidden;
+	}
+button {
+	color: #28486b;
+	font-family: Times New Roman;
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+span {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 13px;
+}
+	.bottomInfo {
+		padding-bottom: 20px;
+	}
+	.bottomCerts {
+		font-size: 12px;
+	}
+	.bottomLink {
+		color: #e9f3fe;
+	}
+.footerAddress{
+	margin-left: 20px;
+}
+h3 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+h4 {
+	font-size: 18px;
+	margin: 0px;
+}
+h5{
+	font-size: 15px;
+	margin: 10px 20px 20px 20px;
+}
+h6 {
+	font-size: 12px;
+	margin: 0px;
+}
+p {
+	margin: 0px;
+	padding-left: 15px;
+}
+.meter {
+  box-sizing: content-box;
+  height: 11px;
+  width: 90%;
+  position: relative;
+  background: #f5f9fe;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px 0 20px 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+.meter > span {
+  display: block;
+  height: 9px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #99c1f1;
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43, 194, 83) 37%,
+    rgb(84, 240, 84) 69%
+  );
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+.full > span {
+	border-radius: 20px;
+}
+.threeFourth > span {
+  background-image: linear-gradient(#62a0ea, #3584e4);
+}
+.half > span {
+  background-image: linear-gradient(#1c71d8, #1a5fb4);
+}
+.email {
+	color: black;
+}
+.emailFooter {
+	color: white;
+}
+.skills {
+	margin-top: 20px;
+}
+.backgroundDim {
+	visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	background-color: #241f31;
+	opacity: .6;
+	pointer-events: none;
+}
+.xButton {
+	visibility: hidden;
+	z-index: 4;
+	color: #1b4d7d;
+	background-color: #ffffff;
+	padding: 2px;
+	border: solid 3px #884cde;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-size: 1.35vw;
+	position: fixed;
+	height: 4%;
+	width: 3%;
+	left: 75.5%;
+	top: 1%;
+	right: 20%;
+	bottom: 50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+button:hover, a:hover {
+	color: #1a5fb4;
+}
+	.xButton:hover, .leftArrow:hover, .rightArrow:hover, .dot:hover {
+		border: solid 3px #3584e4 !important;
+		background-color: #b0c7e4 !important;
+	}
+.leftArrow, .rightArrow {
+	visibility: hidden;
+	width: 5%;
+	height: 5%;
+	top: 90%;
+	right: 10%;
+	z-index: 50;
+	left: 0%;
+	border: solid 3px #9553f1;
+	background-color: white;
+	border-radius: 20%;
+}
+	.leftArrow {
+		left: 12.70%;
+		top: 93.5%;
+	}
+	.rightArrow {
+		left: 77%;
+		top: 93.5%;
+	}
+	.dotContainer {
+		visibility: hidden;
+		z-index: 50;
+		display: flex;
+		display-direction: row;
+		justify-content: space-between;
+		width: 15%;
+		position: fixed;
+		top: 98%;
+		left: 40%;
+	}
+	.dot {
+		width: 15px;
+		height: 15px;
+		border-radius: 15px;
+		background-color: #9553f1;
+		border: solid white 2px;
+		cursor: pointer;
+	}
+
+::selection {
+	color: white;
+	background-color: #3f3fbf;
+}
