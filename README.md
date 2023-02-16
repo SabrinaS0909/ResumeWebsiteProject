@@ -2,8 +2,8 @@
 
 	Overview
    		Describe the purpose of the project.
-    		Link to a live working demo whenever possible. If you have a live working
-    		Screenshots, videos, or gifs of your work in action. Don’t assume someone will take the time to clone your project to see how it works. Screenshots, videos, and gifs accomplish the same thing right on the page. Seeing that something works and looks good is very enticing.
+    	Link to a live working demo whenever possible. If you have a live working
+    	Screenshots, videos, or gifs of your work in action. Don’t assume someone will take the time to clone your project to see how it works. Screenshots, videos, and gifs accomplish the same thing right on the page. Seeing that something works and looks good is very enticing.
     
 	Features
     		Highlight some of the main selling points of the project. What is unique about this project? What killer features did you add?
