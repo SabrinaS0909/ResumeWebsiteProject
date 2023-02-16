@@ -14,33 +14,33 @@
 			Step 2 : On the main repository page, click the green Code button.
 			Step 3 : In the menu that appears, click Download ZIP. The entire repository will be downloaded to your device as a zipped file.
 			Step 4 : Find “ResumeWebsiteProject-main.zip” in download history and double click it.
-		Step 5 : When prompted to “Open With…”, double click “Files”
-		Step 6 : Double click the “ResumeWebsiteProject-main.zip” file.
-		Step 7 : Right click the “ResumeWebsiteProject-main” folder and click extract.
-		Step 8 : Choose where you want the file to be located, and click extract.
-		All of the files should now be available in the folder named “ResumeWebsiteProject-main”. 
-	To find the repository:
-		- https://github.com/SabrinaS0909/ResumeWebsiteProject
-			or
-		- https://github.com/SabrinaS0909 > Repositories > ResumeWebsiteProject
-			or
-		- github.com > hamburger in upper right corner > search box = “ResumeWebsiteProject” > SabrinaS0909/ResumeWebsiteProject
-			or
-		- direct link on the original resume {place link here once you put the resume on linked in}
-			or
-		- direct links labeled “Project 1 on Github” on https://www.fancyspiders.com/
-			or
-		- linkedIn profile https://www.linkedin.com/in/sabrina-spruck-b150b493/ > scroll down to “projects”, click “show project”
+			Step 5 : When prompted to “Open With…”, double click “Files”
+			Step 6 : Double click the “ResumeWebsiteProject-main.zip” file.
+			Step 7 : Right click the “ResumeWebsiteProject-main” folder and click extract.
+			Step 8 : Choose where you want the file to be located, and click extract.
+			All of the files should now be available in the folder named “ResumeWebsiteProject-main”. 
+		To find the repository:
+			- https://github.com/SabrinaS0909/ResumeWebsiteProject
+				or
+			- https://github.com/SabrinaS0909 > Repositories > ResumeWebsiteProject
+				or
+			- github.com > hamburger in upper right corner > search box = “ResumeWebsiteProject” > SabrinaS0909/ResumeWebsiteProject
+				or
+			- direct link on the original resume {place link here once you put the resume on linked in}
+				or
+			- direct links labeled “Project 1 on Github” on https://www.fancyspiders.com/
+				or
+			- linkedIn profile https://www.linkedin.com/in/sabrina-spruck-b150b493/ > scroll down to “projects”, click “show project”
         
-Link to an installer or release if you have one available.
+		Link to an installer or release if you have one available.
     
-Usage & Details
-    Explain how to use your project.
-    Include a design diagram if your application is complex.
+	Usage & Details
+   		Explain how to use your project.
+   		Include a design diagram if your application is complex.
     
-ChangeLog & Roadmap
-    Document what you released and when.
-    Lay out your vision for the project’s future. What new features do you want to add? Which bugs do you want to squash
+	ChangeLog & Roadmap
+    		Document what you released and when.
+    		Lay out your vision for the project’s future. What new features do you want to add? Which bugs do you want to squash
     
-Credits
-    Use someone else’s code for any part of your project? Couldn’t function without dependencies? Lean heavily on someone’s guide? Give them credit! Always cite your sources.
+	Credits
+    		Use someone else’s code for any part of your project? Couldn’t function without dependencies? Lean heavily on someone’s guide? Give them credit! Always cite your sources.
