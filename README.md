@@ -32,7 +32,7 @@ Setup & Installation
 			or
 		- linkedIn profile https://www.linkedin.com/in/sabrina-spruck-b150b493/ > scroll down to “projects”, click “show project”
         
-    Link to an installer or release if you have one available.
+Link to an installer or release if you have one available.
     
 Usage & Details
     Explain how to use your project.
