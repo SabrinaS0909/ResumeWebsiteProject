@@ -141,20 +141,27 @@
 	</div>
 	
 	<div class="backgroundDim" id="revealsDimWindow"></div>
-	<button class="xButton" id="xButton">X</button>
+	<div class="certWindowContainer" id="certWindowContainer">
 	
-	<img src="/certMimoPython.png" alt="Python Certification from MIMO" class="pythonCert cert" id = "pythonCert">
-	<img src="/certMimoSQL.png" alt="SQL Certification from MIMO" class="sqlCert cert" id = "sqlCert">
-	<img src="/certMimoWebDevelopment.png" alt="Web Development Certification from MIMO" class="webDevelopmentCert cert" id="revealsInitialCert" value = "python">
+		<button class="xButton" id="xButton">x</button>
 	
-	<div class="dotContainer" id="dots">
-		<button class="dot" id="dotOne"></button>
-		<button class="dot" id="dotTwo"></button>
-		<button class="dot" id="dotThree"></button>
+		<div class="certImageContainer">
+			<img src="/certMimoPython.png" alt="Python Certification from MIMO" class="pythonCert" id = "pythonCert">
+			<img src="/certMimoSQL.png" alt="SQL Certification from MIMO" class="sqlCert" id = "sqlCert">
+			<img src="/certMimoWebDevelopment.png" alt="Web Development Certification from MIMO" class="webDevelopmentCert" id="revealsInitialCert" value = "python">
+		</div>
+	
+		<div class="dotContainer" id="dots">
+			<button class="dot" id="dotOne"></button>
+			<button class="dot" id="dotTwo"></button>
+			<button class="dot" id="dotThree"></button>
+		</div>
+	
+		<div class="arrowButtonContainer">
+			<button><img src="/leftArrow.png" alt="Arrow To Go Left, Back To The Previous Certificate" class="leftArrow" id="leftArrow"></button>
+			<button><img src="/rightArrow.png" alt="Arrow To Go Right, Forward To The Previous Certificate" class="rightArrow" id="rightArrow"></button>
+		</div>
 	</div>
-	
-	<button><img src="/leftArrow.png" alt="Arrow To Go Left, Back To The Previous Certificate" class="leftArrow" id="leftArrow"></button>
-	<button><img src="/rightArrow.png" alt="Arrow To Go Right, Forward To The Previous Certificate" class="rightArrow" id="rightArrow"></button>
 
 <script src="brains.js"></script>
 

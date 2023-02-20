@@ -82,6 +82,7 @@ const pythonCert = document.getElementById('pythonCert');
 let openCert = initialCert;
 
 window.onload = function () {
+	const certWindowContainer = document.getElementById('certWindowContainer');
 	const xButton = document.getElementById('xButton');
 	const leftArrow = document.getElementById('leftArrow');
 	const rightArrow = document.getElementById('rightArrow');
@@ -96,6 +97,7 @@ window.onload = function () {
 	const openButtons = Array.from(certOpenButtons); 
 	openButtons.forEach(function(button){
 		button.addEventListener('click', function() {
+			certWindowContainer.style.visibility = 'visible';
 			initialCert.style.visibility = 'visible';
 			dimWindow.style.visibility = 'visible';
 			rightArrow.style.visibility = 'visible';
@@ -111,6 +113,7 @@ window.onload = function () {
 	})
 //CloseCerts
 	xButton.addEventListener('click', function () {
+		certWindowContainer.style.visibility = 'hidden';
 		initialCert.style.visibility = 'hidden';
 		sqlCert.style.visibility = 'hidden';
 		pythonCert.style.visibility = 'hidden';
