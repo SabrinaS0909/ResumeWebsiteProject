@@ -58,8 +58,12 @@ or
 
 - linkedIn profile https://www.linkedin.com/in/sabrina-spruck-b150b493/ > scroll down to “projects”, click “show project”
 
+*note* This web app is made to work on a live website through goDaddy and cPanel. In order for it to sync correctly with cPanel, the index.html file has to leave out the "Images" folder tag from the src of each image in the document - which is necessary for it to work otherwise, such as when it's downloaded from GitHub. To get the images to work in such an instance, simply add "Images" to the beginning of the src of each image in the index.html document.
 
-		Usage & Details
+Example: src="/leftArrow.png" --> src="Images/leftArrow.png"
+
+
+	Usage & Details
 To get a good idea of my software development skills and qualifications through a typical resume format, just with a few extra features that having it placed online allows - such at links to other websites and projects, and buttons that allow inclusions such as the certificates. So navigate around, and see if I'm a good fit for your company!
     
 	ChangeLog & Roadmap
