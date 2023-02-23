@@ -161,6 +161,18 @@ footer, .footer {
 	margin: 0px;
 	padding: 0px;
 }
+.goDaddy {
+	background-color: white;
+	width: 135px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	order: 2;
+	position: relative;
+	left: 45%;
+}
 	
 .certWindowContainer {
 	visibility: hidden;

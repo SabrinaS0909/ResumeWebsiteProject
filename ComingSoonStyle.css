@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+	background-color: #637a93;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	margin: 25px;
+}
+h1, h2 {
+	text-align: center;
+}
+h1 {
+	font-size: 48px;
+	background-color: #e9f3fe;
+	border-radius: 20px;
+	padding: 10px 25px 10px 25px;
+	margin: 50px 50px 25px 50px;
+}
+h2 {
+	font-size: 24px;
+	background-color: #e9f3fe;
+	border-radius: 20px;
+	padding: 10px 25px 10px 25px;
+}
+a {
+	text-decoration: none;
+	color: #28486b;
+	}
+	.backButton {
+		font-family: Times New Roman;
+		border: solid #e9f3fe 3px;
+		color: #e9f3fe;
+		background-color: #28486b;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 10px;
+		padding: 10px;
+		position: relative;
+		top: 20px;
+	}
+button {
+	color: #28486b;
+	font-family: Times New Roman;
+	background-color: transparent;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 50px;
+
+}
+p {
+	margin: 0px;
+	padding-left: 15px;
+}
+.topNav {
+	height: 5%;
+	width: 50%;
+	text-align: center;
+	background-color: #e9f3fe;
+	padding: 5px 0 5px 0;
+	border-radius: 10px;
+	font-size: 18px;
+}
+footer, .footer {
+	width: 100%;
+	text-align: right;
+	color: white;
+	right: 10px;
+	background-color: transparent;
+	font-size: 12px;
+	display: inline-block;
+}
+	.bottomLink {
+		color: #e9f3fe;
+	}
+	.footerAddress{
+		margin-left: 20px;
+		font-size: 12px;
+	}
+.emailFooter {
+	color: white;
+}
+.buttonToOpenCerts {
+	margin: 0px;
+	padding: 0px;
+}
+.backButton {
+	margin-bottom: 25%;
+}
+.goDaddy {
+	background-color: white;
+	width: 135px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	order: 2;
+	margin-top: 10px;
+}
+
+button:hover, a:hover {
+	color: #1a5fb4;
+}
+	.xButton:hover, .leftArrow:hover, .rightArrow:hover, .dot:hover {
+		border: solid 3px #3584e4 !important;
+		background-color: #b0c7e4 !important;
+	}	
+
+::selection {
+	color: white;
+	background-color: #3f3fbf;
+}
+
+@media only screen and (max-width: 1440px) {
+	.buttonToOpenCerts {
+		font-size: 24px;
+	}
+	.bottomCerts {
+		font-size: 16px;
+	}
+	.footer {
+		font-size: 9.5px;
+	}
+}
