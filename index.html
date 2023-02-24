@@ -16,18 +16,18 @@
 	<nav>
 		<a href="https://www.linkedin.com/in/sabrina-spruck-b150b493?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn |</a>
 		<a href="index.html" id="projectOneLinkTop">| Project 1 |</a>
-		<a href="comingSoonPage.html" id="projectTwoTop">| Project 2 |</a>
-		<a href="comingSoonPage.html" id="projectThreeTop">| Project 3 |</a>
+		<a href="comingSoonPage.html" id="projectTwoTop" onclick="projectTwo()">| Project 2 |</a>
+		<a href="comingSoonPage.html" id="projectThreeTop" onclick="projectThree()">| Project 3 |</a>
 		<button class="buttonToOpenCerts">| Certifications |</button>
 		<a href="https://github.com/SabrinaS0909/ResumeWebsiteProject">| Project 1 on Github |</a>
-		<a href="comingSoonPage.html" id="projectTwoGithubTop">| Project 2 on Github |</a>
-		<a href="comingSoonPage.html" id="projectThreeGithubTop">| Project 3 on Github</a>
+		<a href="comingSoonPage.html" id="projectTwoGithubTop" onclick="projectTwo()">| Project 2 on Github |</a>
+		<a href="comingSoonPage.html" id="projectThreeGithubTop" onclick="projectThree()">| Project 3 on Github</a>
 	</nav>
 	<div class="mainAndAsideContainer">
 		<main>
 			<h3>Profile</h3>
 				<p>Looking to transition into the software development field. 
-				Developed a resume based website with HTML, CSS and Javascript, [] with [], and [] with []. 
+				Developed a resume based website with HTML, CSS and Javascript, <a href="comingSoonPage.html" onclick="projectTwo()">[coming soon] with [...]</a>, and <a href="comingSoonPage.html" onclick="projectThree()">[coming soon] with [...].</a> 
 				All of these projects are available for review on GitHub. 
 				Has 10+ years employed across many jobs that gave abundant team work experience.
 				Has a history of 15+ years with design, story-boarding, drawing and animating which are highly transferable and rare skills for front end development. 
@@ -165,6 +165,7 @@
 	</div>
 
 <script src="brains.js"></script>
+<script src="smallerBrains.js"></script>
 
 </body>
 
@@ -179,12 +180,12 @@
 	<nav class="footer"><span>Links:</span>
 		<a href="https://www.linkedin.com/in/sabrina-spruck-b150b493?original_referer=https%3A%2F%2Fwww.google.com%2F" class="bottomLink">LinkedIn |</a>
 		<a href="index.html" class="bottomLink" id="projectOneBottom">| Project 1 |</a>
-		<a href="comingSoonPage.html" class="bottomLink" id="projectTwoBottom">| Project 2 |</a>
-		<a href="comingSoonPage.html" class="bottomLink" id="projectThreeBottom">| Project 3 |</a>
+		<a href="comingSoonPage.html" class="bottomLink" id="projectTwoBottom" onclick="projectTwo()">| Project 2 |</a>
+		<a href="comingSoonPage.html" class="bottomLink" id="projectThreeBottom" onclick="projectThree()">| Project 3 |</a>
 		<button class="buttonToOpenCerts bottomCerts bottomLink" >| Certifications |</button>
 		<a href="https://github.com/SabrinaS0909/ResumeWebsiteProject" class="bottomLink">| Project 1 on Github |</a>
-		<a href="comingSoonPage.html" class="bottomLink" id="projectTwoGithubBottom">| Project 2 on Github |</a>
-		<a href="comingSoonPage.html" class="bottomLink" id="projectThreeGithubBottom">| Project 3 on Github</a>
+		<a href="comingSoonPage.html" class="bottomLink" id="projectTwoGithubBottom" onclick="projectTwo()">| Project 2 on Github |</a>
+		<a href="comingSoonPage.html" class="bottomLink" id="projectThreeGithubBottom" onclick="projectThree()">| Project 3 on Github</a>
 	</nav>
 </footer>
 </html>

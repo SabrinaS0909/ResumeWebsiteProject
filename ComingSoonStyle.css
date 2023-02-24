@@ -75,6 +75,10 @@ footer, .footer {
 	font-size: 12px;
 	display: inline-block;
 }
+	.footerBlock {
+		position: relative;
+		top: 290px;
+	}
 	.bottomLink {
 		color: #e9f3fe;
 	}
@@ -102,6 +106,8 @@ footer, .footer {
 	border-radius: 2px;
 	order: 2;
 	margin-top: 10px;
+	position: relative;
+	top: 290px;
 }
 
 button:hover, a:hover {
