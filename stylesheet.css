@@ -7,7 +7,7 @@ body {
 	background-color: #000205;
 	border: solid white 5px;
 	border-radius: 50px;
-	padding: 10px;
+	padding: 2%;
 }
 h1, h2 {
 	height: 10%;
@@ -18,35 +18,24 @@ h1, h2 {
 		background-color: #f5f9fe;
 		border-radius: 50px 50px 0 0;
 	}
-h1 {
-	font-size: 48px;
+h2 {
 }
 h3 {
-	font-size: 24px;
-	margin-top: 20px;
 }
 h4 {
-	font-size: 18px;
-	margin: 0px;
 }
 h5{
-	font-size: 15px;
-	margin: 10px 20px 20px 20px;
 }
 h6 {
-	font-size: 12px;
-	margin: 0px;
 }
 p {
-	margin: 0px;
-	padding-left: 15px;
 }
 nav {
-	height: 5%;
+	height: 3%;
 	width: 100%;
 	text-align: center;
 	background-color: #e9f3fe;
-	padding: 5px 0 5px 0;
+	padding: 1% 0 1% 0;
 }
 a {
 	text-decoration: none;
@@ -57,7 +46,7 @@ button {
 	font-family: Times New Roman;
 	background-color: transparent;
 	border: none;
-	font-size: 16px;
+	font-size: 100%;
 	cursor: pointer;
 }
 .mainAndAsideContainer {
@@ -67,7 +56,7 @@ button {
 	border-radius: 0 0 50px 50px;
 }
 	main, aside {
-		padding: 0 25px 0 25px;
+		padding: 0 3% 0 3%;
 	}
 	main {
 		display: flex;
@@ -78,17 +67,14 @@ button {
 		border-radius: 0 0 0 50px;
 	}
 	aside {
-		height: 100%;
+		height: 80%;
 		width: 30%;
-		margin-top: 20px;
 	}
 	.aside {
-		margin-top: 10px;
 	}
 span {
 	font-weight: bold;
 	font-style: normal;
-	font-size: 13px;
 }
 	.meter > span {
   		display: block;
@@ -118,35 +104,34 @@ footer, .footer {
 	text-align: right;
 	color: #e9f3fe;
 	position: relative;
-	right: 10px;
+-->	right: 0%;
 	background-color: transparent;
-	font-size: 12px;
 	display: inline-block;
-	margin: 5px;
+	margin: 5%;
 }
 	.bottomInfo {
-		padding-bottom: 20px;
+		padding-bottom: 20%;
 	}
 	.bottomCerts {
-		font-size: 12px;
+		font-size: 12%;
 	}
 	.bottomLink {
 		color: #e9f3fe;
 	}
 	.footerAddress{
-		margin-left: 20px;
+		margin-left: 20%;
 	}
 
 .meter {
   box-sizing: content-box;
-  height: 11px;
+  height: 11%;
   width: 90%;
   position: relative;
   background: #f5f9fe;
   border-radius: 25px;
-  padding: 5px;
-  margin: 10px 0 20px 10px;
-  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  padding: 5%;
+  margin: 10% 0 20% 10%;
+  box-shadow: inset 0 -1% 1% rgba(255, 255, 255, 0.3);
 }
 .email {
 	color: black;
@@ -155,20 +140,20 @@ footer, .footer {
 	color: white;
 }
 .skills {
-	margin-top: 20px;
+	margin-top: 20%;
 }
 .buttonToOpenCerts {
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 }
 .goDaddy {
 	background-color: white;
-	width: 135px;
-	height: 35px;
+	width: 135%;
+	height: 35%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 2px;
+	border-radius: 2%;
 	order: 2;
 	position: relative;
 	left: 45%;
@@ -181,8 +166,8 @@ footer, .footer {
 	width: 100%;
 	height: 100%;
 	position: fixed;
-	max-width: 750px;
-	max-height: 745px;
+	max-width: 750%;
+	max-height: 745%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -194,8 +179,8 @@ footer, .footer {
 		position: fixed;
 		width: 100%;
 		height: 100%;
-		top: 0px;
-		left: 0px;
+		top: 0%;
+		left: 0%;
 		background-color: #241f31;
 		opacity: .6;
 		pointer-events: none;
@@ -209,12 +194,12 @@ footer, .footer {
 		border-radius: 10px;
 		font-weight: bold;
 		font-family: sans-serif;
-		font-size: 16px;
-		height: 30px;
-		width: 30px;
-		box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+		font-size: 16%;
+		height: 30%;
+		width: 30%;
+		box-shadow: 5% 5% 5% rgba(0,0,0,0.3);
 		position: fixed;
-		right: 0px;
+		right: 0%;
 	}
 		.webDevelopmentCert, .sqlCert, .pythonCert {
 			position: absolute; 
@@ -222,11 +207,11 @@ footer, .footer {
 			left: 50%;
 			transform: translate(-50%, -50%);
 			text-align: center;
-			max-height: 690px;
-			max-width: 625px;
-			height: 690px;
-			width: 625px;
-			box-shadow: 5px 5px 5px rgba(0,0,0,0.3)
+			max-height: 690%;
+			max-width: 625%;
+			height: 690%;
+			width: 625%;
+			box-shadow: 5% 5% 5% rgba(0,0,0,0.3)
 		}
 		.webDevelopmentCert {
 			visibility: hidden;
@@ -244,12 +229,12 @@ footer, .footer {
 		justify-content: space-between;
 		width: 15%;
 		position: fixed;
-		bottom: 0px;
+		bottom: 0%;
 		z-index: 3;
 	}
 		.dot {
-			width: 20px;
-			height: 20px;
+			width: 20%;
+			height: 20%;
 			border-radius: 15px;
 			background-color: #9553f1;
 			border: solid white 2px;
@@ -261,12 +246,12 @@ footer, .footer {
 		justify-content: space-between;
 		width: 100%;
 		position: fixed;
-		bottom: 0px;
+		bottom: 0%;
 	}
 		.leftArrow, .rightArrow {
 			visibility: hidden;
-			width: 55px;
-			height: 40px;
+			width: 55%;
+			height: 40%;
 			border: solid 3px #9553f1;
 			background-color: white;
 			border-radius: 20%;

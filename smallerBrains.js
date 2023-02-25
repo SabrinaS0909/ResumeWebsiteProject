@@ -139,7 +139,7 @@ projectTwoGithubBottom.addEventListener('click', function () {
 projectThreeGithubBottom.addEventListener('click', function () {
 	dimProjectThree();
 });
-*/
+
 //inserts the correct project desc when the right button is pressed
 window.onload =function () {
 	let title = document.querySelector('.title');
@@ -150,3 +150,4 @@ function projectTwo() {
 function projectThree() {
 	document.body.h2.innerHTML = 'Spider Identification App';
 };};
+*/
