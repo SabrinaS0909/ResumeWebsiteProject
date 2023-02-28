@@ -7,7 +7,7 @@ body {
 	background-color: #000205;
 	border: solid white 5px;
 	border-radius: 50px;
-	padding: 2%;
+	padding: 3%;
 }
 h1, h2 {
 	height: 10%;
@@ -19,23 +19,39 @@ h1, h2 {
 		border-radius: 50px 50px 0 0;
 	}
 h2 {
+	margin-bottom: 2%;
 }
 h3 {
+	margin-top: 0%;
+	margin-bottom: 1%;
 }
 h4 {
+	margin-top: 2%;
+	margin-bottom: 0%;
+	margin-left: 1%;
 }
 h5{
+	margin-top: 2%;
+	margin-bottom: 3%;
+	margin-left: 2%;
 }
 h6 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
 }
 p {
+	margin-left: 2%;
+	margin-top: 0%;
+	margin-right: 2.5%
 }
 nav {
 	height: 3%;
 	width: 100%;
 	text-align: center;
 	background-color: #e9f3fe;
-	padding: 1% 0 1% 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 a {
 	text-decoration: none;
@@ -49,6 +65,9 @@ button {
 	font-size: 100%;
 	cursor: pointer;
 }
+ul {
+	margin-top: 1%;
+}
 .mainAndAsideContainer {
 	display: flex;
 	flex-direction: row;
@@ -56,7 +75,7 @@ button {
 	border-radius: 0 0 50px 50px;
 }
 	main, aside {
-		padding: 0 3% 0 3%;
+		padding: 2%;
 	}
 	main {
 		display: flex;
@@ -69,8 +88,6 @@ button {
 	aside {
 		height: 80%;
 		width: 30%;
-	}
-	.aside {
 	}
 span {
 	font-weight: bold;
@@ -99,39 +116,30 @@ span {
 		background-image: linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
 	}
 footer, .footer {
-	height: 5%;
 	width: 100%;
 	text-align: right;
 	color: #e9f3fe;
 	position: relative;
--->	right: 0%;
 	background-color: transparent;
 	display: inline-block;
-	margin: 5%;
+	font-size: 12px;
+	margin: 1%;
+	right: 2%;
 }
-	.bottomInfo {
-		padding-bottom: 20%;
-	}
-	.bottomCerts {
-		font-size: 12%;
-	}
 	.bottomLink {
 		color: #e9f3fe;
-	}
-	.footerAddress{
-		margin-left: 20%;
 	}
 
 .meter {
   box-sizing: content-box;
-  height: 11%;
-  width: 90%;
+  width: 80%;
   position: relative;
   background: #f5f9fe;
   border-radius: 25px;
-  padding: 5%;
-  margin: 10% 0 20% 10%;
-  box-shadow: inset 0 -1% 1% rgba(255, 255, 255, 0.3);
+  padding: 2%;
+  margin: 2%;
+  margin-bottom: 5%;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 }
 .email {
 	color: black;
@@ -139,24 +147,22 @@ footer, .footer {
 .emailFooter {
 	color: white;
 }
-.skills {
-	margin-top: 20%;
-}
 .buttonToOpenCerts {
 	margin: 0%;
 	padding: 0%;
 }
 .goDaddy {
 	background-color: white;
-	width: 135%;
-	height: 35%;
+	height: 35px;
+	width: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 2%;
 	order: 2;
 	position: relative;
-	left: 45%;
+	left: 44%;
+	margin: 1%;
 }
 	
 .certWindowContainer {
