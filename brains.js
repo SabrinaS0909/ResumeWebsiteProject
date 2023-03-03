@@ -133,8 +133,7 @@ window.onload = function () {
 		thirdDot.style.backgroundColor = '#9553f1';
 		thirdDot.style.boxShadow = '0px 0px 0px 0px';
 	});
-	
-	
+//Scrolling through the certs
 	function leftArrowButton() {
 		if (openCert == initialCert) {
 			console.log('left arrow clicked');
@@ -263,4 +262,74 @@ window.onload = function () {
 	thirdDot.addEventListener('click', function () {
 		thirdDotButton()
 	});
+
+//for phone and desktop compatibility
+	let w = document.documentElement.clientWidth || window.innerWidth;
+	let h = document.documentElement.clientWidth || window.innerHeight;
+	
+	let cwc = document.querySelector('.certWindowContainer');
+	let x = document.querySelector('.xButton');
+	let wCert = document.querySelector('.webDevelopmentCert');
+	let sqlCert = document.querySelector('.sqlCert');
+	let pCert = document.querySelector('.pythonCert');
+	let la = document.querySelector('.leftArrow');
+	let ra = document.querySelector('.rightArrow');
+	
+	if (w <= 1080 && h <= 1920 ) {
+		document.querySelector('.buttonToOpenCerts').style.fontSize = '24px';
+		document.querySelector('.bottomCerts').style.fontSize = '16px';
+		document.querySelector('.footer').style.fontSize = '9.5px';
+		
+		cwc.style.maxWidth = '900px';
+		cwc.style.maxHeight = '1500px';
+		cwc.style.width = '100%';
+		cwc.style.height = '100%';
+		x.style.fontSize = '40px';
+		x.style.height = '75px';
+		x.style.width = '75px';
+		x.style.margin = '0px';
+		x.style.padding = '0px';
+		x.style.alignItems = 'center';
+		wCert.style.maxHeight = ('900px');
+		wCert.style.maxWidth = ('650px');
+		wCert.style.height = ('1500px');
+		wCert.style.width = ('750px');
+		sqlCert.style.maxHeight = ('900px');
+		sqlCert.style.maxWidth = ('650px');
+		sqlCert.style.height = ('1500px');
+		sqlCert.style.width = ('750px');
+		pCert.style.maxHeight = ('900px');
+		pCert.style.maxWidth = ('650px');
+		pCert.style.height = ('1500px');
+		pCert.style.width = ('750px');
+		firstDot.style.width = ('25px');
+		firstDot.style.height = ('25px');
+		firstDot.style.borderRadius = ('50px');
+		firstDot.style.padding = ('20px');
+		firstDot.style.margin = ('25px');
+		firstDot.style.position = ('relative');
+		firstDot.style.right = ('50%');
+		secondDot.style.width = ('25px');
+		secondDot.style.height = ('25px');
+		secondDot.style.borderRadius = ('50px');
+		secondDot.style.padding = ('20px');
+		secondDot.style.margin = ('25px');
+		secondDot.style.position = ('relative');
+		secondDot.style.right = ('50%');
+		thirdDot.style.width = ('25px');
+		thirdDot.style.height = ('25px');
+		thirdDot.style.borderRadius = ('50px');
+		thirdDot.style.padding = ('20px');
+		thirdDot.style.margin = ('25px');
+		thirdDot.style.position = ('relative');
+		thirdDot.style.right = ('50%');
+		la.style.width = ('125px');
+		la.style.height = ('80px');
+		ra.style.width = ('125px');
+		ra.style.height = ('80px');
+	}
+	else {
+		console.log('Desktop');
+	};
 };
+
