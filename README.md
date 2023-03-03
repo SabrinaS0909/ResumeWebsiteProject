@@ -1,11 +1,11 @@
 # ResumeWebsiteProject
 
-Overview
-    The purpose of this project is to present my personal resume and qualifications on my website: FancySpiders.com
-    Link to a live working demo: https://www.fancyspiders.com/
-    Project on FancySpiders.com:
+	Overview
+    	The purpose of this project is to present my personal resume and qualifications on my website: FancySpiders.com
+    	Link to a live working demo: https://www.fancyspiders.com/
+    	Project on FancySpiders.com:
     	
-    Project from GitHub.com: 
+    	Project from GitHub.com: 
     	
     
 Features
