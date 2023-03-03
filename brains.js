@@ -76,6 +76,17 @@ loadHundredPercentBars();
 loadSeventyFivePercentBars();
 loadFiftyPercentBars();
 
+//popup script
+function myFunction() {
+	  var popup = document.getElementById("myPopup");
+	  popup.classList.toggle("show");
+	}
+function myFunctionBottom() {
+	  var popup = document.getElementById("myPopupBottom");
+	  popup.classList.toggle("show");
+	}
+
+//for the Certs
 const initialCert = document.getElementById('revealsInitialCert');
 const sqlCert = document.getElementById('sqlCert');
 const pythonCert = document.getElementById('pythonCert');
