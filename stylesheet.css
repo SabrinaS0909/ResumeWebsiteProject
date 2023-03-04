@@ -187,12 +187,12 @@ footer, .footer {
 	}
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 165px;
   background-color: #586c82;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 8px;
   position: absolute;
   z-index: 1;
   bottom: 125%;

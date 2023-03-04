@@ -78,11 +78,11 @@ loadFiftyPercentBars();
 
 //popup script
 function myFunction() {
-	  var popup = document.getElementById("myPopup");
+	  const popup = document.getElementById("myPopup");
 	  popup.classList.toggle("show");
 	}
 function myFunctionBottom() {
-	  var popup = document.getElementById("myPopupBottom");
+	  const popup = document.getElementById("myPopupBottom");
 	  popup.classList.toggle("show");
 	}
 
@@ -343,4 +343,5 @@ window.onload = function () {
 		console.log('Desktop');
 	};
 };
+
 
