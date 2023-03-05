@@ -185,6 +185,22 @@ footer, .footer {
 	.bottomLink {
 		color: #e9f3fe;
 	}
+	.popupClose {
+		color: white;
+		border: white solid 2px;
+		border-radius: 15px;
+		font-weight: bold;
+		display: block;
+		position: relative;
+		left: 65px;
+		font-size: 14px;
+		margin: 5px;
+	}
+		.popupClose:hover {
+		background-color: #daebfe;
+		border: #637a93 solid 2px;
+		color: #637a93;
+		}
 .popup .popuptext {
   visibility: hidden;
   width: 165px;

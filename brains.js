@@ -103,6 +103,7 @@ window.onload = function () {
 	const firstDot = document.getElementById('dotOne');
 	const secondDot = document.getElementById('dotTwo');
 	const thirdDot = document.getElementById('dotThree');
+	
 //OpenCerts
 	const certOpenButtons = document.getElementsByClassName('buttonToOpenCerts'); //grabs both buttons that open certs
 	const openButtons = Array.from(certOpenButtons); 
@@ -120,8 +121,8 @@ window.onload = function () {
 			firstDot.style.border = 'solid 3px #bfd9f8';
 			firstDot.style.backgroundColor = '#daebfe';
 			firstDot.style.boxShadow = '0px 5px 30px 10px #bfd9f8';
-		})
-	})
+		});
+	});
 //CloseCerts
 	xButton.addEventListener('click', function () {
 		certWindowContainer.style.visibility = 'hidden';
