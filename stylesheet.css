@@ -68,17 +68,16 @@ button {
 }
 	main, aside {
 		padding: 0 25px 0 25px;
+		height: 100%;
 	}
 	main {
 		display: flex;
 		flex-direction: column;
-		height: 80%;
 		width: 70%;
 		background-color: #daebfe;
 		border-radius: 0 0 0 50px;
 	}
 	aside {
-		height: 100%;
 		width: 30%;
 		margin-top: 20px;
 	}
@@ -112,11 +111,14 @@ span {
 	.half > span {
 		background-image: linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
 	}
+	.oneFourth > span {
+		background-image: linear-gradient(#c9d4fe, #c5e2fe);
+	}
 footer, .footer {
 	height: 5%;
 	width: 100%;
 	text-align: right;
-	color: #e9f3fe;
+	color: white;
 	position: relative;
 	right: 10px;
 	background-color: transparent;
