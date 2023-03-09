@@ -87,7 +87,7 @@ function myFunctionBottom() {
 	  popup.classList.toggle("show");
 	  popup.hidden = false;
 	};
-//hide popups
+//hide popups on scroll
 function myFunctionBoth() {
 	document.getElementById("myPopup").hidden = true;
 	document.getElementById("myPopupBottom").hidden = true;
