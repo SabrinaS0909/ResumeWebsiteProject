@@ -80,11 +80,18 @@ loadFiftyPercentBars();
 function myFunction() {
 	  const popup = document.getElementById("myPopup");
 	  popup.classList.toggle("show");
-	}
+	  popup.hidden = false;
+	};
 function myFunctionBottom() {
 	  const popup = document.getElementById("myPopupBottom");
 	  popup.classList.toggle("show");
-	}
+	  popup.hidden = false;
+	};
+//hide popups
+function myFunctionBoth() {
+	document.getElementById("myPopup").hidden = true;
+	document.getElementById("myPopupBottom").hidden = true;
+};
 
 //for the Certs
 const initialCert = document.getElementById('revealsInitialCert');

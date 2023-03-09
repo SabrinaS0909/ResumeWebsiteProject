@@ -2,7 +2,7 @@
 
 //if you're on a page, it should be dulled with no ability to click it - top and bottom
 
-
+/*
 const projectOneTop = document.getElementById('projectOneLinkTop');
 const projectTwoTop = document.getElementById('projectTwoTop');
 const projectThreeTop = document.getElementById('projectThreeTop');
@@ -82,4 +82,21 @@ projectThreeGithubBottom.addEventListener('click', function () {
 	dimProjectThree();
 });
 
+
 //inserts the correct project desc when the right button is pressed
+
+function projectTwo () {
+	document.getElementById('projectName').innerHTML='Story Posting Web-App';
+};
+function projectThree () {
+	document.getElementById('projectName').innerHTML='Spider Identification App';
+};
+document.getElementById("projectTwoTop").addEventListener("click", projectTwo);
+document.getElementById("projectThreeTop").addEventListener("click", projectThree);
+document.getElementById("projectTwoBottom").addEventListener("click", projectTwo);
+document.getElementById("projectThreeBottom").addEventListener("click", projectThree);
+*/
+
+
+
+
