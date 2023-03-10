@@ -339,7 +339,12 @@ footer, .footer {
 			background-color: white;
 			border-radius: 20%;
 		}
-			
+
+.dulled {
+	opacity: .5;
+	padding-left: 0px;
+}
+		
 .popup:hover, button:hover, a:hover {
 	color: #1a5fb4;
 }
