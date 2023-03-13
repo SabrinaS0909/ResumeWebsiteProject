@@ -281,7 +281,7 @@ window.onload = function () {
 	thirdDot.addEventListener('click', function () {
 		thirdDotButton()
 	});
-
+	
 //for phone and desktop compatibility
 	let w = document.documentElement.clientWidth || window.innerWidth;
 	let h = document.documentElement.clientWidth || window.innerHeight;
@@ -298,6 +298,8 @@ window.onload = function () {
 		document.querySelector('.buttonToOpenCerts').style.fontSize = '24px';
 		document.querySelector('.bottomCerts').style.fontSize = '16px';
 		document.querySelector('.footer').style.fontSize = '9.5px';
+		document.querySelector('.top').style.fontSize = '24px';
+		document.querySelector('.bottom').style.fontSize = '16px';
 		
 		cwc.style.maxWidth = '900px';
 		cwc.style.maxHeight = '1500px';
@@ -349,7 +351,7 @@ window.onload = function () {
 	}
 	else {
 		console.log('Desktop');
-	};
+	}; 
 };
 
 
