@@ -5,9 +5,12 @@ The purpose of this project is to present my personal resume and qualifications 
 
 Link to a live working demo: https://www.fancyspiders.com/
 	
-Preview of project on FancySpiders.com:
-	
+Demo of project on FancySpiders.com:
+
+https://user-images.githubusercontent.com/113223660/224584126-063eb5ad-478e-433a-a635-358be999be20.mp4
+
 Demo of downloading project from GitHub.com:
+
     
 	Features
 Getting the project onto a live website gave experience with Cpanel and the backend of web hosting with GoDaddy.
